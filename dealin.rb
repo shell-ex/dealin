@@ -72,7 +72,6 @@ $buf_p = ""
 def emit line
   line.chomp!
   x = split line
-  p x
   $queue.push x
   if x.length > 1
     $p.puts x[1]
